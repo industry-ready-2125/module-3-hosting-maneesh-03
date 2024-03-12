@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body {
+            background-image: url("netflixbg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+           
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 150px 15px;
+            background-color:black;
+            width:300px;
+            height:400px;
+            margin-left:400px;
+            opacity:0.55;
+    
+            
+           
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color:white
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            padding:10px 10px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left:0px;
+            
+                   }
+
+        .buttons button {
+            background-color:red;
+            color: white;
+            padding: 12px 80px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buttons a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .buttons label {
+            font-size: 12px;
+        }
+
+        .footer {
+            text-align: center;
+            color:white;
+        }
+
+        .footer a {
+            text-decoration: none;
+        }
+        .rem
+        {
+            color:white
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Sign In</div>
+        <div class="input-group">
+            <input type="email" placeholder="Email or phone number" id="email" style="width:200px;height:25px"/>
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Password" id="password" style="width:200px;height:25px"/>
+        </div>
+        <div class="buttons">
+            <button type="submit">Sign In</button>
+        </div>
+        <div class="rem">
+            <label for="remember-me">
+                <input type="checkbox" id="remember-me" style="color:white" /> Remember me?
+            </label>
+            <a href="#" style="margin-left:15px;color:skyblue;">Need help?</a>
+        </div>
+        <br>
+        
+        <div class="footer">
+            <a href="signup.html" style="color:white;">New to Netflix? Sign up now.</a>
+            <p style="margin-top:50px;">This page is protected by Google recaptha <br> to ensure you're not a bot. <a href="#" style="color:skyblue;">Learn more.</a></p>
+        </div>
+    </div>
+</body>
+</html>
